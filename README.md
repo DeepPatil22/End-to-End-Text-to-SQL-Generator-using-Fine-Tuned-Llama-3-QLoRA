@@ -7,3 +7,5 @@ Optimized Training Pipeline: Leveraged QLoRA (4-bit quantization) and PEFT to re
 Custom Architecture Implementation: Implemented Low-Rank Adaptation (LoRA) logic (Rank=256, Alpha=128) to efficiently update only 1% of model parameters while freezing the backbone.
 
 Evaluation & Deployment: Achieved 97.6% accuracy on test queries and built an interactive inference interface using Streamlit for real-time database querying.
+
+Dataset link used in above project is given below from hugging face: https://huggingface.co/datasets/b-mc2/sql-create-context
